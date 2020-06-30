@@ -1,0 +1,54 @@
+.mouse-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 160px;
+  background-color: #000000;
+}
+
+.mouse-area > h4 {
+  color: #ffffff;
+}
+
+a {
+  cursor: pointer;
+  background-image: linear-gradient(lightblue, skyblue);
+  border: 1px solid #eee;
+  border-radius: 4px;
+  color: grey;
+  display: inline-block;
+  line-height: 32px;
+  padding: 0 15px;
+  text-decoration: none;
+  transition: none;
+  vertical-align: top;
+}
+.clear-btn {
+  background-color: #f2f2f2;
+  background-image: linear-gradient(to bottom, #f2f2f2, #f2f2f2);
+  border: 1px solid #bfbfbf;
+  box-shadow: inset 0 1px 0 white, inset 0 -1px 0 #d9d9d9,
+    inset 0 0 0 1px #f2f2f2, 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #8c8c8c;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.clear-btn:hover {
+  background: #f2f2f2;
+  border-color: #8c8c8c;
+  box-shadow: inset 0 1px 0 white, inset 0 -1px 0 #d9d9d9,
+    inset 0 0 0 1px #f2f2f2;
+}
+
+.clear-btn:focus {
+  background: #f2f2f2;
+  border-color: #8c8c8c;
+  box-shadow: inset 0 1px 0 white, inset 0 -1px 0 #d9d9d9,
+    inset 0 0 0 1px #f2f2f2;
+}
+
+.clear-btn:active {
+  background: #f2f2f2;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
